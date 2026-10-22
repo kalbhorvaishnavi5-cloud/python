@@ -1,6 +1,6 @@
 
         
-amount=6000       
+amount=10000       
 import random       
 usrname=input("Enter your username:")
 password=input("Enter your password:")
@@ -19,10 +19,10 @@ if usrname=="vaishu" and password=="1234":
         print("2.Deposit")
         print("3.withdraw")
         print("4.Exit")
-        BankBalance=6000
+        BankBalance=10000
         choice=int(input("Enter your choice:"))
         if choice==1:
-            balance=6000
+            balance=10000
             print("Your balance is Rs",balance)
         elif choice==2:
             amount=int(input("Enter  deposit amount:"))
